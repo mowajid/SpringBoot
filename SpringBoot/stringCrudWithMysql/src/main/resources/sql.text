@@ -1,0 +1,7 @@
+show databases;
+use wajid;
+create table Students(id int,name varchar(20),email varchar(20));
+insert into Students(id,name,email) values(1001, 'abc', 'abc@gmail.com');
+insert into Students(id,name,email) values(1002, 'xyz', 'xyz@gmail.com');
+select * from Students;
+
